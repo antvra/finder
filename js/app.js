@@ -30,7 +30,7 @@ const removeList = () => {
 };
 
 const getRepos = async (repoName) => {
-  const url = `${githubAPI}/search/repositories?q=${repoName}`;
+  const url = `${githubAPI}/search/repositories?q=${repoName}&per_page=5`;
   try {
     const response = await fetch(url);
     return response.json();
