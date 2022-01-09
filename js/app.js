@@ -22,29 +22,6 @@ const createAddedBlock = ([name, owner, stars] = info) => {
     btn.removeEventListener("click", removeBlock);
   }
   btn.addEventListener("click", removeBlock);
-
-  // const blockWithResult = document.createElement("div");
-  // blockWithResult.classList.add("block__added");
-  // const infoBlock = document.createElement("div");
-  // infoBlock.classList.add("block__added--info");
-  // const nameInfo = document.createElement("h4");
-  // const ownerInfo = document.createElement("h4");
-  // const starsInfo = document.createElement("h4");
-  // nameInfo.classList.add("block__added--text");
-  // ownerInfo.classList.add("block__added--text");
-  // starsInfo.classList.add("block__added--text");
-  // nameInfo.textContent = `Name: ${name}`;
-  // ownerInfo.textContent = `Owner: ${owner}`;
-  // starsInfo.textContent = `Stars: ${stars}`;
-  // const btn = document.createElement("button");
-  // btn.classList.add("block__added--delete");
-  // btn.textContent = "X";
-  // infoBlock.append(nameInfo);
-  // infoBlock.append(ownerInfo);
-  // infoBlock.append(starsInfo);
-  // blockWithResult.append(infoBlock);
-  // blockWithResult.append(btn);
-  // block.append(blockWithResult);
 };
 
 const removeList = () => {
